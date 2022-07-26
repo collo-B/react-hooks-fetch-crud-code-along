@@ -28,6 +28,7 @@ function ShoppingList() {
         {itemsToDisplay.map((item) => (
           <Item key={item.id} item={item} />
         ))}
+        
       </ul>
     </div>
   );
